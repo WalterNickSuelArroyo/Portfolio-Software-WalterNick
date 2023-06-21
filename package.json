@@ -2,7 +2,7 @@
   "name": "react-portafolio-website-1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/WalterNickSuelArroyo/Portfolio-Software-WalterNick/build",
+  "homepage": "https://walternicksuelarroyo.github.io/Portfolio-Software-WalterNick/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
