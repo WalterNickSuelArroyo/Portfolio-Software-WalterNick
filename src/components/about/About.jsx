@@ -7,8 +7,8 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Conozca</h5>
+      <h2>Acerca de mí</h2>
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
@@ -19,24 +19,24 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <h5>Experiencia</h5>
+              <small>1+ años trabajando</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Clientes</h5>
+              <small>20+ Clientes</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Proyectos</h5>
+              <small>6+ Completedo</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni exercitationem ipsa minima id facilis delectus accusamus, blanditiis repellat pariatur suscipit illo consequuntur ipsam necessitatibus officiis doloremque nulla nemo explicabo molestias.
+          Soy un estudiante con una gran pasión por la tecnología y el desarrollo de software. Me apasiona aprender y aplicar nuevas tecnologías para crear soluciones innovadoras y eficientes. He participado en cursos y programas de certificación que me han ayudado a desarrollar habilidades académicas e interpersonales. Estoy emocionado de ser parte de una industria en constante cambio.
           </p>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Hablemos</a>
         </div>
       </div>
     </section>

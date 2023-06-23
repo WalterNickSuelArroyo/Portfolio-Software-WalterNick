@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Software-WalterNick/build/static/css/main.13d328a6.css",
-    "main.js": "/Portfolio-Software-WalterNick/build/static/js/main.d1429db1.js",
+    "main.css": "/Portfolio-Software-WalterNick/build/static/css/main.def074ee.css",
+    "main.js": "/Portfolio-Software-WalterNick/build/static/js/main.c87ab2ac.js",
     "static/media/cv.pdf": "/Portfolio-Software-WalterNick/build/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/me.png": "/Portfolio-Software-WalterNick/build/static/media/me.821ecddcb9953b46bf75.png",
     "static/media/me-about.jpg": "/Portfolio-Software-WalterNick/build/static/media/me-about.fb4452e7f286d3636ef9.jpg",
@@ -12,11 +12,11 @@
     "static/media/portfolio3.jpg": "/Portfolio-Software-WalterNick/build/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/Portfolio-Software-WalterNick/build/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
     "index.html": "/Portfolio-Software-WalterNick/build/index.html",
-    "main.13d328a6.css.map": "/Portfolio-Software-WalterNick/build/static/css/main.13d328a6.css.map",
-    "main.d1429db1.js.map": "/Portfolio-Software-WalterNick/build/static/js/main.d1429db1.js.map"
+    "main.def074ee.css.map": "/Portfolio-Software-WalterNick/build/static/css/main.def074ee.css.map",
+    "main.c87ab2ac.js.map": "/Portfolio-Software-WalterNick/build/static/js/main.c87ab2ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d328a6.css",
-    "static/js/main.d1429db1.js"
+    "static/css/main.def074ee.css",
+    "static/js/main.c87ab2ac.js"
   ]
 }
