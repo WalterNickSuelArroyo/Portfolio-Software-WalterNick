@@ -40,3 +40,26 @@
         gap: 1rem;
     }
 }
+
+.filtros {
+    display: flex;
+    gap: 12px; /* Este valor puedes ajustarlo según necesites */
+    justify-content: flex-end;
+    margin-right: 240px;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    color: #6b7280; /* Color del texto, equivalente a text-smallTextColor en Tailwind */
+    border: 1px solid #6b7280; /* Borde sólido con el color del texto */
+    padding: 8px 16px; /* Espaciado interno, py-2 px-4 en Tailwind */
+    border-radius: 8px; /* Bordes redondeados, equivalente a rounded-[8px] */
+    background-color: transparent; /* Fondo transparente */
+    cursor: pointer; /* Cursor como puntero para indicar que es clickeable */
+    font-size: 0.875rem; /* Tamaño del texto, equivalente a text-small en Tailwind */
+    line-height: 1.25rem; /* Altura de línea, para un mejor aspecto visual */
+  }
+  
+  .button:hover {
+    background-color: #e5e7eb; /* Cambio de color de fondo al pasar el mouse */
+  }
