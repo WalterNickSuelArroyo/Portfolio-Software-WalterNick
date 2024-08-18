@@ -10,6 +10,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
+    category: "Frontend",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'https://dribbble.com/shots/21808909-NowNow-logo-design'
@@ -17,6 +18,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
+    category: "Backend",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'http://dribbble.com/shots/16673715-Crypto-currency.dashboards-and-financial-data-visualization'
@@ -24,6 +26,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
+    category: "Análisis de Datos",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'http://dribbble.com/shots/16673715-Crypto-currency.dashboards-and-financial-data-visualization'
@@ -31,6 +34,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
+    category: "UX/UI",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'http://dribbble.com/shots/16673715-Crypto-currency.dashboards-and-financial-data-visualization'
@@ -38,6 +42,7 @@ const data = [
   {
     id: 5,
     image: IMG5,
+    category: "Frontend",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'http://dribbble.com/shots/16673715-Crypto-currency.dashboards-and-financial-data-visualization'
@@ -45,17 +50,54 @@ const data = [
   {
     id: 6,
     image: IMG6,
+    category: "Backend",
     title: 'Crypto Currency Dashboard & Financial Visualization',
     github: 'http://github.com',
     demo: 'http://dribbble.com/shots/16673715-Crypto-currency.dashboards-and-financial-data-visualization'
-  }
+  },
+  {
+    id: 7,
+    image: IMG1,
+    category: "Frontend",
+    title: 'Crypto Currency Dashboard & Financial Visualization',
+    github: 'http://github.com',
+    demo: 'https://dribbble.com/shots/21808909-NowNow-logo-design'
+  },
 ]
 const Portfolio = () => {
+  const [portafolios, setPortafolios] = useState(data);
+  const [selectTab, setSelectTab] = useState("Frontend");
+  useEffect(() => {
+    if (selectTab === 'Frontend') {
+      const filteredData = data.filter(item => item.category === 'Frontend')
+      setPortafolios(filteredData)
+    }
+    if (selectTab === 'Backend') {
+      const filteredData = data.filter(item => item.category === 'Backend')
+      setPortafolios(filteredData)
+    }
+    if (selectTab === 'Análisis de Datos') {
+      const filteredData = data.filter(item => item.category === 'Análisis de Datos')
+      setPortafolios(filteredData)
+    }
+    if (selectTab === 'UX/UI') {
+      const filteredData = data.filter(item => item.category === 'UX/UI')
+      setPortafolios(filteredData)
+    }
+  }, [selectTab])
   return (
     <section id='portfolio'>
+      <h5>Mis proyectos</h5>
+      <h2>Portfolio</h2>
+      <div className='filtros'>
+        <button className='categoryButton' onClick={()=>setSelectTab('Frontend')}>Frontend</button>
+        <button className='categoryButton' onClick={()=>setSelectTab('Backend')}>Backend</button>
+        <button className='categoryButton' onClick={()=>setSelectTab('Análisis de Datos')}>Análisis de Datos</button>
+        <button className='categoryButton' onClick={()=>setSelectTab('UX/UI')}>UX/UI</button>
+      </div>
       <div className='container portfolio__container'>
         {
-          data.map(({ id, image, title, github, demo }) => {
+          portafolios.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className='portfolio__item-image'>

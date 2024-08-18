@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
+
 .portfolio__item {
     background: var(--color-bg-variant);
     padding: 1.2rem;
@@ -10,56 +11,78 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
 }
+
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
 }
+
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;
 }
+
 .portfolio__item-cta {
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+
+.filtros {
+    display: flex;
+    gap: 12px;
+    /* Este valor puedes ajustarlo según necesites */
+    justify-content: flex-end;
+    /* margin-right: 240px; */
+    margin-bottom: 40px;
+    position: relative;
+    right: 12.5%;
+}
+
+.categoryButton {
+    color: #4db5ff;
+    border: 1px solid #4db5ff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 0.90rem;
+    line-height: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.categoryButton:hover {
+    background-color: #e5e7eb;
+    color: rgb(63, 60, 60);
+}
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ==============*/
 @media screen and (max-width: 1024px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .filtros {
+        right: 7%;
+    }
 }
+
 /* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
 @media screen and (max-width: 600px) {
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .filtros {
+        right: 7%;
+    }
+    .categoryButton {
+        font-size: 0.75rem;
+        padding: 5px;
+    }
 }
-
-.filtros {
-    display: flex;
-    gap: 12px; /* Este valor puedes ajustarlo según necesites */
-    justify-content: flex-end;
-    margin-right: 240px;
-    margin-bottom: 40px;
-  }
-  
-  .button {
-    color: #6b7280; /* Color del texto, equivalente a text-smallTextColor en Tailwind */
-    border: 1px solid #6b7280; /* Borde sólido con el color del texto */
-    padding: 8px 16px; /* Espaciado interno, py-2 px-4 en Tailwind */
-    border-radius: 8px; /* Bordes redondeados, equivalente a rounded-[8px] */
-    background-color: transparent; /* Fondo transparente */
-    cursor: pointer; /* Cursor como puntero para indicar que es clickeable */
-    font-size: 0.875rem; /* Tamaño del texto, equivalente a text-small en Tailwind */
-    line-height: 1.25rem; /* Altura de línea, para un mejor aspecto visual */
-  }
-  
-  .button:hover {
-    background-color: #e5e7eb; /* Cambio de color de fondo al pasar el mouse */
-  }
