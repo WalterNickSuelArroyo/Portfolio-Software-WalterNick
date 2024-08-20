@@ -32,7 +32,7 @@ header {
     background: var(--color-primary);
 }
 /* ================== ME ==================*/
-.me {
+/* .me {
     background: linear-gradient(var(--color-primary),transparent) ;
     width: 22rem;
     height: 30rem;
@@ -42,7 +42,20 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+} */
+
+@keyframes ondas {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.01);}
+    100% {transform: scale(1);}
 }
+
+.me img {
+    width: 1200px;
+    margin: 0px auto;
+    animation: ondas 2s ease-in infinite;
+}
+
 /* ================== SCROLL DOWN ==================*/
 .scroll__down {
     position: absolute;
@@ -57,6 +70,9 @@ header {
     header {
         height: 100vh;
     }
+    .me img {
+        width: 900px;
+    }
 }
 /* =============== MEDIA QUERIES (SMALL DEVICES) ==============*/
 @media screen and (max-width: 600px) {
@@ -66,5 +82,10 @@ header {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+    .me img {
+        width: 500px;
+        position: relative;
+        right: 80px;
     }
 }

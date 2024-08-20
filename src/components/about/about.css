@@ -32,11 +32,20 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    
 }
+
+@keyframes ondas2 {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.02);}
+    100% {transform: scale(1);}
+}
+
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
+    animation: ondas2 0.5s ease-in;
 }
 .about__icon {
     color: var(--color-primary);
