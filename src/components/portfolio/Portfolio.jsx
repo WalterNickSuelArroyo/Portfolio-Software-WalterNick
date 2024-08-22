@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.png'
 import IMG7 from '../../assets/portfolio7.png'
 import IMG8 from '../../assets/portfolio8.png'
+import IMG9 from '../../assets/portfolio9.PNG'
 const data = [
   {
     id: 1,
@@ -27,6 +28,14 @@ const data = [
   },
   {
     id: 3,
+    image: IMG9,
+    category: "Frontend",
+    title: 'Carrito de compras',
+    github: 'https://github.com/WalterNickSuelArroyo/carrito-de-compras',
+    demo: 'https://walternicksuelarroyo.github.io/carrito-de-compras/'
+  },
+  {
+    id: 4,
     image: IMG3,
     category: "Frontend",
     title: 'Generador de contraseñas',
@@ -34,7 +43,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/GeneradorDeContrase-as/'
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     category: "Frontend",
     title: 'Register and Login con React',
@@ -42,7 +51,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/LoginSignUp/build/'
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     category: "Frontend",
     title: 'App de listado de tareas',
@@ -50,7 +59,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/TaskApp/'
   },
   {
-    id: 6,
+    id: 7,
     image: IMG6,
     category: "Frontend",
     title: 'Calculadora básica',
@@ -58,7 +67,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/calculator-basic/'
   },
   {
-    id: 7,
+    id: 8,
     image: IMG7,
     category: "Frontend",
     title: 'Galeria Transición',
@@ -66,7 +75,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/_1_yt_tk_expanding_Card_/'
   },
   {
-    id: 8,
+    id: 9,
     image: IMG8,
     category: "Backend",
     title: 'Generador de gifs',
