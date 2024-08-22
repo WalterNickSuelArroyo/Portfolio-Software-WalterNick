@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Portfolio-Software-WalterNick/static/css/main.acb216f0.css",
-    "main.js": "/Portfolio-Software-WalterNick/static/js/main.b0307c20.js",
-    "static/media/portfolio7.png": "/Portfolio-Software-WalterNick/static/media/portfolio7.ad6fbfc27d1fe9f13ae6.png",
-    "static/media/portfolio9.PNG": "/Portfolio-Software-WalterNick/static/media/portfolio9.8e5c280536be5a9510f8.PNG",
-    "static/media/cv.pdf": "/Portfolio-Software-WalterNick/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/portfolio8.png": "/Portfolio-Software-WalterNick/static/media/portfolio8.57be9c455829755af2ff.png",
-    "static/media/1 - Programming_fixed.png": "/Portfolio-Software-WalterNick/static/media/1 - Programming_fixed.541e142c190a9aaeb867.png",
-    "static/media/Programmer 4.png": "/Portfolio-Software-WalterNick/static/media/Programmer 4.f4c69e5952578c3530a8.png",
-    "static/media/portfolio5.png": "/Portfolio-Software-WalterNick/static/media/portfolio5.188b3b06ed90c424c763.png",
-    "static/media/portfolio1.PNG": "/Portfolio-Software-WalterNick/static/media/portfolio1.9cb87ead14d1f128c81a.PNG",
-    "static/media/portfolio2.PNG": "/Portfolio-Software-WalterNick/static/media/portfolio2.1972d18d3d38ebf6d83a.PNG",
-    "static/media/portfolio6.png": "/Portfolio-Software-WalterNick/static/media/portfolio6.0d58e0908c6aa584c3dc.png",
-    "static/media/portfolio4.PNG": "/Portfolio-Software-WalterNick/static/media/portfolio4.a5f5400d2f24c28a4460.PNG",
-    "static/media/portfolio3.PNG": "/Portfolio-Software-WalterNick/static/media/portfolio3.590701968abcd800b6c2.PNG",
-    "index.html": "/Portfolio-Software-WalterNick/index.html",
-    "main.acb216f0.css.map": "/Portfolio-Software-WalterNick/static/css/main.acb216f0.css.map",
-    "main.b0307c20.js.map": "/Portfolio-Software-WalterNick/static/js/main.b0307c20.js.map"
+    "main.css": "/Portfolio-Software-WalterNick/build/static/css/main.acb216f0.css",
+    "main.js": "/Portfolio-Software-WalterNick/build/static/js/main.fe516302.js",
+    "static/media/portfolio7.png": "/Portfolio-Software-WalterNick/build/static/media/portfolio7.ad6fbfc27d1fe9f13ae6.png",
+    "static/media/portfolio9.PNG": "/Portfolio-Software-WalterNick/build/static/media/portfolio9.8e5c280536be5a9510f8.PNG",
+    "static/media/cv.pdf": "/Portfolio-Software-WalterNick/build/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/portfolio8.png": "/Portfolio-Software-WalterNick/build/static/media/portfolio8.57be9c455829755af2ff.png",
+    "static/media/1 - Programming_fixed.png": "/Portfolio-Software-WalterNick/build/static/media/1 - Programming_fixed.541e142c190a9aaeb867.png",
+    "static/media/Programmer 4.png": "/Portfolio-Software-WalterNick/build/static/media/Programmer 4.f4c69e5952578c3530a8.png",
+    "static/media/portfolio5.png": "/Portfolio-Software-WalterNick/build/static/media/portfolio5.188b3b06ed90c424c763.png",
+    "static/media/portfolio1.PNG": "/Portfolio-Software-WalterNick/build/static/media/portfolio1.9cb87ead14d1f128c81a.PNG",
+    "static/media/portfolio2.PNG": "/Portfolio-Software-WalterNick/build/static/media/portfolio2.1972d18d3d38ebf6d83a.PNG",
+    "static/media/portfolio6.png": "/Portfolio-Software-WalterNick/build/static/media/portfolio6.0d58e0908c6aa584c3dc.png",
+    "static/media/portfolio4.PNG": "/Portfolio-Software-WalterNick/build/static/media/portfolio4.a5f5400d2f24c28a4460.PNG",
+    "static/media/portfolio3.PNG": "/Portfolio-Software-WalterNick/build/static/media/portfolio3.590701968abcd800b6c2.PNG",
+    "index.html": "/Portfolio-Software-WalterNick/build/index.html",
+    "main.acb216f0.css.map": "/Portfolio-Software-WalterNick/build/static/css/main.acb216f0.css.map",
+    "main.fe516302.js.map": "/Portfolio-Software-WalterNick/build/static/js/main.fe516302.js.map"
   },
   "entrypoints": [
     "static/css/main.acb216f0.css",
-    "static/js/main.b0307c20.js"
+    "static/js/main.fe516302.js"
   ]
 }
