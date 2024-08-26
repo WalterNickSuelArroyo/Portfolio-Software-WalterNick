@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.PNG'
-import IMG2 from '../../assets/portfolio2.PNG'
-import IMG3 from '../../assets/portfolio3.PNG'
-import IMG4 from '../../assets/portfolio4.PNG'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.png'
-import IMG7 from '../../assets/portfolio7.png'
-import IMG8 from '../../assets/portfolio8.png'
-import IMG9 from '../../assets/portfolio9.PNG'
+import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
+import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
+import IMG8 from '../../assets/portfolio8.jpg'
+import IMG9 from '../../assets/portfolio9.jpg'
+import IMG10 from '../../assets/portfolio10.jpg'
+
 const data = [
   {
     id: 1,
@@ -20,6 +22,14 @@ const data = [
   },
   {
     id: 2,
+    image: IMG10,
+    category: "Frontend",
+    title: 'Weatherlink',
+    github: 'https://github.com/WalterNickSuelArroyo/app-de-clima',
+    demo: 'https://weatherlink.vercel.app/'
+  },
+  {
+    id: 3,
     image: IMG2,
     category: "Frontend",
     title: 'Generador de código QR',
@@ -27,7 +37,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/GeneradorCodigoQR/'
   },
   {
-    id: 3,
+    id: 4,
     image: IMG9,
     category: "Frontend",
     title: 'Carrito de compras',
@@ -35,7 +45,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/carrito-de-compras/'
   },
   {
-    id: 4,
+    id: 5,
     image: IMG3,
     category: "Frontend",
     title: 'Generador de contraseñas',
@@ -43,7 +53,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/GeneradorDeContrase-as/'
   },
   {
-    id: 5,
+    id: 6,
     image: IMG4,
     category: "Frontend",
     title: 'Register and Login con React',
@@ -51,7 +61,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/LoginSignUp/build/'
   },
   {
-    id: 6,
+    id: 7,
     image: IMG5,
     category: "Frontend",
     title: 'App de listado de tareas',
@@ -59,7 +69,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/TaskApp/'
   },
   {
-    id: 7,
+    id: 8,
     image: IMG6,
     category: "Frontend",
     title: 'Calculadora básica',
@@ -67,7 +77,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/calculator-basic/'
   },
   {
-    id: 8,
+    id: 9,
     image: IMG7,
     category: "Frontend",
     title: 'Galeria Transición',
@@ -75,7 +85,7 @@ const data = [
     demo: 'https://walternicksuelarroyo.github.io/_1_yt_tk_expanding_Card_/'
   },
   {
-    id: 9,
+    id: 10,
     image: IMG8,
     category: "Backend",
     title: 'Generador de gifs',
