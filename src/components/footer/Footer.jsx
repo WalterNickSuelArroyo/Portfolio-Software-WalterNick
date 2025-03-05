@@ -13,7 +13,7 @@ const Footer = () => {
         <li><a href="#contact">Contáctame</a></li>        
       </ul>
       <div className='footer__socials'>
-        <a href="https://facebook.com" target='_blank' rel="noopener noreferrer"><FaFacebookF /></a>
+        <a href="https://www.facebook.com/nick.suel.9" target='_blank' rel="noopener noreferrer"><FaFacebookF /></a>
         <a href="https://www.linkedin.com/in/walter-suel-arroyo-software/" target='_blank' rel="noopener noreferrer"><FaLinkedin /></a>
         <a href="https://www.youtube.com/@waltersuel" target='_blank' rel="noopener noreferrer"><FaYoutube /></a>
       </div>
