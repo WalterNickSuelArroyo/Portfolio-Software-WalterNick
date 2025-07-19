@@ -15,6 +15,7 @@ import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
 import IMG15 from "../../assets/portfolio15.PNG";
+import IMG16 from "../../assets/portfolio16.png";
 
 const data = [
   {
@@ -24,6 +25,14 @@ const data = [
     title: "Sitio Web para la empresa Alexander Fleming",
     github: "https://formacionalexanderfleming.com/",
     demo: "https://formacionalexanderfleming.com/",
+  },
+  {
+    id: 16,
+    image: IMG16,
+    category: "Frontend",
+    title: "Sitio Web para la empresa Madpa",
+    github: "https://madparepresentaciones.com/",
+    demo: "https://madparepresentaciones.com/",
   },
   {
     id: 11,
