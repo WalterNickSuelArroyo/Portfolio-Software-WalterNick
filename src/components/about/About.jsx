@@ -34,7 +34,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Soy ingeniero de Software en el décimo ciclo de la Universidad Nacional Mayor de San Marcos, especializado en Desarrollo Web. Destaco en el diseño y desarrollo de aplicaciones web utilizando tecnologías modernas, con competencias avanzadas en diseño de interfaces de usuario y gestión de base de datos. Mi experiencia abarca también la asistencia técnica integral para servicios de TI y la colaboración entre las diferentes áreas.
+          Soy ingeniero de Software de la Universidad Nacional Mayor de San Marcos, especializado en Desarrollo Web. Destaco en el diseño y desarrollo de aplicaciones web utilizando tecnologías modernas, con competencias avanzadas en diseño de interfaces de usuario y gestión de base de datos. Mi experiencia abarca también la asistencia técnica integral para servicios de TI y la colaboración entre las diferentes áreas.
           </p>
           <a href="#contact" className='btn btn-primary'>Hablemos</a>
         </div>

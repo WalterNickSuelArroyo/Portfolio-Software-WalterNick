@@ -14,8 +14,17 @@ import IMG11 from '../../assets/portfolio11.png'
 import IMG12 from "../../assets/portfolio12.png";
 import IMG13 from "../../assets/portfolio13.png";
 import IMG14 from "../../assets/portfolio14.png";
+import IMG15 from "../../assets/portfolio15.PNG";
 
 const data = [
+  {
+    id: 15,
+    image: IMG15,
+    category: "Frontend",
+    title: "Sitio Web para la empresa Alexander Fleming",
+    github: "https://formacionalexanderfleming.com/",
+    demo: "https://formacionalexanderfleming.com/",
+  },
   {
     id: 11,
     image: IMG11,
